@@ -6,7 +6,7 @@ Stdlib only, no network, fully deterministic.
 
 import os
 
-ENTRY = "My spellchecker keeps changing your name to 'mine,' and after three whole years of fixing its mistakes, for once I'm not hitting undo."
+ENTRY = "My spellchecker keeps changing your name to 'mine,' and after three years of fixing its mistakes, I'm not hitting undo."
 
 assert 1 <= len(ENTRY) <= 200, "ENTRY must be 1-200 characters"
 assert "\n" not in ENTRY, "ENTRY must not contain a newline"
